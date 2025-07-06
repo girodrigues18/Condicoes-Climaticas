@@ -1,5 +1,8 @@
 🌤️ Condições Climáticas
+
 Projeto desenvolvido para consulta de informações meteorológicas em tempo real, utilizando HTML, CSS, JavaScript e integração com a API da OpenWeather.
+
+🌐 Acesse o site 🔗 https://girodrigues18.github.io/Condicoes-Climaticas/
 
 🔍 Sobre o projeto
 Este projeto permite ao usuário:
