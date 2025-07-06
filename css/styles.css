@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    background-color: #333;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 80%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#search-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+#search-form input {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+#search-form button {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-size: 1rem;
+}
+
+#search-form button:hover {
+    background-color: rgba(1, 182, 182, 0.555);
+    transform: scale(1.05);
+}
+
+#tempo-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#tempo-info .tempo-dados h2 {
+    font-size: 1rem;
+    font-weight: 600;
+
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+#tempo-info .tempo-dados span {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#tempo-info img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tempo-info p {
+    font-size: 1rem;
+    font-weight: 400;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
